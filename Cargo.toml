@@ -1,0 +1,20 @@
+[package]
+name = "mini-backtrace"
+version = "0.1.0"
+edition = "2018"
+authors = ["Amanieu d'Antras <amanieu@gmail.com>"]
+description = "Backtrace support for no_std and embedded programs"
+license = "Apache-2.0/MIT"
+repository = "https://github.com/Amanieu/mini-backtrace"
+keywords = ["backtrace", "no_std", "dwarf"]
+categories = ["development-tools", "no-std", "embedded"]
+
+[dependencies]
+cty = "0.2.1"
+arrayvec = { version = "0.7.0", default-features = false }
+cfg-if = "1.0.0"
+
+[build-dependencies]
+cc = "1.0.67"
+bindgen = "0.58.1"
+walkdir = "2.3.2"
