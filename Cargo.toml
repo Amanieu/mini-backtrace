@@ -1,6 +1,6 @@
 [package]
 name = "mini-backtrace"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 authors = ["Amanieu d'Antras <amanieu@gmail.com>"]
 description = "Backtrace support for no_std and embedded programs"
