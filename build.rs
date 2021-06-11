@@ -36,8 +36,6 @@ fn compile_libunwind() {
 }
 
 fn gen_libunwind_bindings() {
-    println!("cargo:rerun-if-changed=bindgen-wrapper.h");
-
     let args = vec![
         "-nostdlibinc".to_string(),
         "-ffreestanding".to_string(),
