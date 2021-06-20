@@ -1,0 +1,2 @@
+# Specify LLVM's libunwind as vendored so it'll be excluded from the language stats
+llvm-libunwind/* linguist-vendored
