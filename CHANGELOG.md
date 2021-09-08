@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [v0.1.2] - 2021-09-08
+
+### Fixed
+- Fix handling of `unw_is_signal_frame` return value
+
 ## [v0.1.1] - 2021-06-11
 
 ### Fixed
@@ -16,6 +21,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Initial release
 
-[Unreleased]: https://github.com/Amanieu/mini-backtrace/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/Amanieu/mini-backtrace/compare/v0.1.2...HEAD
+[v0.1.2]: https://github.com/Amanieu/mini-backtrace/compare/v0.1.1...v0.1.2
 [v0.1.1]: https://github.com/Amanieu/mini-backtrace/compare/v0.1.0...v0.1.1
 [v0.1.0]: https://github.com/Amanieu/mini-backtrace/releases/tag/v0.1.0
