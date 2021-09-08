@@ -273,7 +273,7 @@ impl<const N: usize> Backtrace<N> {
 
             // Adjust the IP to point within the function symbol. This should
             // only be done if the frame is not a signal frame.
-            let is_signal_frame =  uw::unw_is_signal_frame(cursor) > 0;
+            let is_signal_frame = uw::unw_is_signal_frame(cursor) > 0;
             if !is_signal_frame {
                 ip -= 1;
             }
