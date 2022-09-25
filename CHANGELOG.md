@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [v0.1.3] - 2022-09-25
+
+### Changed
+- Upgrade to bindgen 0.60.
+
 ## [v0.1.2] - 2021-09-08
 
 ### Fixed
@@ -21,7 +26,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Initial release
 
-[Unreleased]: https://github.com/Amanieu/mini-backtrace/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/Amanieu/mini-backtrace/compare/v0.1.3...HEAD
+[v0.1.3]: https://github.com/Amanieu/mini-backtrace/compare/v0.1.2...v0.1.3
 [v0.1.2]: https://github.com/Amanieu/mini-backtrace/compare/v0.1.1...v0.1.2
 [v0.1.1]: https://github.com/Amanieu/mini-backtrace/compare/v0.1.0...v0.1.1
 [v0.1.0]: https://github.com/Amanieu/mini-backtrace/releases/tag/v0.1.0
