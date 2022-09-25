@@ -10,11 +10,11 @@ keywords = ["backtrace", "no_std", "dwarf"]
 categories = ["development-tools", "no-std", "embedded"]
 
 [dependencies]
-cty = "0.2.1"
-arrayvec = { version = "0.7.0", default-features = false }
+cty = "0.2.2"
+arrayvec = { version = "0.7.2", default-features = false }
 cfg-if = "1.0.0"
 
 [build-dependencies]
-cc = "1.0.67"
-bindgen = "0.58.1"
+cc = "1.0.73"
+bindgen = "0.60.1"
 walkdir = "2.3.2"

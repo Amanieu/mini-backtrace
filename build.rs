@@ -41,8 +41,6 @@ fn gen_libunwind_bindings() {
         "-ffreestanding".to_string(),
         "-I".to_string(),
         "llvm-libunwind/include".to_string(),
-        "-target".to_string(),
-        env::var("TARGET").unwrap(),
         "-D_LIBUNWIND_IS_NATIVE_ONLY".to_string(),
     ];
 
