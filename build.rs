@@ -50,7 +50,7 @@ fn gen_libunwind_bindings() {
         .ctypes_prefix("::cty")
         .prepend_enum_name(false)
         .parse_callbacks(Box::new(bindgen::CargoCallbacks))
-        .clang_args(&args)
+        .clang_args(args)
         .generate()
         .expect("Unable to generate bindings");
 
